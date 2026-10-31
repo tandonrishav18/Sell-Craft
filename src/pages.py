@@ -685,7 +685,7 @@ def render_document_page():
             <div style="text-align: right; background: rgba(255,255,255,0.08); padding: 14px 18px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.12);">
                 <div style="font-size: 11px; color: #9CA3AF; text-transform: uppercase; font-weight: 700;">Student Candidate</div>
                 <div style="font-size: 16px; font-weight: 800; color: #FFFFFF; margin: 2px 0;">Rishav</div>
-                <div style="font-size: 12.5px; color: #A78BFA; font-weight: 600;">Reg. No: RA2311003011025</div>
+                <div style="font-size: 12.5px; color: #A78BFA; font-weight: 600;">Reg. No: RA2311003010921</div>
                 <div style="font-size: 11px; color: #9CA3AF; margin-top: 4px;">SRM Institute of Science and Technology</div>
             </div>
         </div>
@@ -842,7 +842,7 @@ def render_chat_page(df: pd.DataFrame, kpis: Dict[str, Any]):
                 top_p = get_top_selling_products(df, top_n=1).iloc[0]
                 st.write(f"🏆 **Top-Performing SKU:**\n- **Product:** {top_p['product_name']}\n- **Category:** {top_p['category']}\n- **Net Sales:** ${top_p['net_sales']:,.2f}\n- **Units Sold:** {top_p['units_sold']:,}")
             elif "project" in prompt.lower() or "srm" in prompt.lower():
-                st.write("🎓 **Academic Project Profile:**\n- **Student:** Rishav\n- **Registration No:** RA2311003011025\n- **Institution:** SRM Institute of Science and Technology\n- **Course:** Management Information Systems (MIS)\n- **UI Template:** SellCraft E-Commerce Dashboard (Behance Case Study 241220463)")
+                st.write("🎓 **Academic Project Profile:**\n- **Student:** Rishav\n- **Registration No:** RA2311003010921\n- **Institution:** SRM Institute of Science and Technology\n- **Course:** Management Information Systems (MIS)\n- **UI Template:** SellCraft E-Commerce Dashboard (Behance Case Study 241220463)")
             else:
                 st.write(f"🤖 **SellCraft BI Engine:** The store currently holds **{len(df)} total orders** across {df['category'].nunique()} product categories, with **{df['customer_id'].nunique()} unique customers** and an average order delivery rate of **{(df['order_status']=='Completed').mean()*100:.1f}%**.")
 
@@ -914,7 +914,7 @@ def render_profile_page():
                 R
             </div>
             <div style="font-size: 19px; font-weight: 800; color: #111827;">Rishav</div>
-            <div style="font-size: 13px; color: #7C3AED; font-weight: 700; margin-top: 2px;">RA2311003011025</div>
+            <div style="font-size: 13px; color: #7C3AED; font-weight: 700; margin-top: 2px;">RA2311003010921</div>
             <div style="font-size: 12.5px; color: #6B7280; margin-top: 6px;">SRM Institute of Science and Technology</div>
             <div style="margin-top: 14px;">
                 <span class="sc-badge-green">MIS Project Lead</span>

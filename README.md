@@ -2,7 +2,7 @@
 
 ### Management Information Systems (MIS) Course Project
 **Student:** Rishav  
-**Registration Number:** RA2311003011025  
+**Registration Number:** RA2311003010921  
 **Institution:** SRM Institute of Science and Technology, Kattankulathur  
 **Department:** Computing Technologies  
 **UI/UX Design Reference:** [SellCraft E-Commerce Dashboard (Behance Case Study 241220463)](https://www.behance.net/gallery/241220463/E-Commerce-Dashboard-UI-UX-Design)  
@@ -24,7 +24,7 @@ This system delivers a production-grade **Business Intelligence (BI) Decision-Su
   3. **Order (Fulfillment & Ledger):** Complete transactional ledger with status filtering (`Completed`, `Pending`, `Cancelled`, `Returned`), Order ID search, live order status updater that persists to SQLite in real time, and instant CSV export!
   4. **Customer Data (LTV & VIP Cohorts):** Customer intelligence metrics (Total Customers, 96.2% Repeat Rate, $950.49 Average LTV), VIP Customer Leaderboard with RFM tiers (`VIP Platinum`, `Gold Tier`, `Silver Member`), and horizontal buyer spend distribution chart.
   5. **Checkout (Interactive POS Simulator):** Live point-of-sale simulator allowing selecting products, setting quantities, applying promo codes (`SELLCRAFT10`, `SRM20`), previewing real-time itemized bills, and placing live orders that write to SQLite and update the overview dashboard live!
-  6. **Document (MIS Academic Report):** Full academic report tailored for SRM Institute of Science and Technology (Student: Rishav, Reg. No: RA2311003011025) across 6 comprehensive sections with mathematical formulas, ETL architecture, and database dictionary.
+  6. **Document (MIS Academic Report):** Full academic report tailored for SRM Institute of Science and Technology (Student: Rishav, Reg. No: RA2311003010921) across 6 comprehensive sections with mathematical formulas, ETL architecture, and database dictionary.
   7. **Settings:** Store currency formatting ($ USD, € EUR, £ GBP, ₹ INR), theme accents, SQLite database diagnostics (row count, file size, integrity check), and a 1-click button to reset the database to baseline demo data.
   8. **AI Assistant & Alerts Popovers:** Interactive query assistant for instant store analysis and live operational store alerts.
 
