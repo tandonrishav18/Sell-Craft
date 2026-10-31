@@ -591,7 +591,7 @@ def render_sellcraft_navbar(active_page: str = "Overview") -> str:
             </a>
             <a href="?tab=Chat" target="_self" class="{chat_cls}" title="AI MIS Assistant">💬</a>
             <a href="?tab=Alerts" target="_self" class="{alerts_cls}" title="Store Notifications">🔔</a>
-            <a href="?tab=Profile" target="_self" class="{profile_cls}" title="Ananya Kumar (SRM IST)">👤</a>
+            <a href="?tab=Profile" target="_self" class="{profile_cls}" title="Rishav (SRM IST)">👤</a>
         </div>
     </div>
     """

@@ -548,7 +548,7 @@ def render_checkout_page(df: pd.DataFrame):
         with st.container(border=True):
             st.markdown("### 🛒 Order Configuration")
 
-            cust_id = st.text_input("Customer ID / Name", value="CUST-9428-ANANYA", help="Existing or new customer identifier.")
+            cust_id = st.text_input("Customer ID / Name", value="CUST-9428-RISHAV", help="Existing or new customer identifier.")
 
             item_names = [f"{item['icon']} {item['name']} (${item['price']:.0f})" for item in catalog_items]
             selected_idx = st.selectbox("Select Product", range(len(item_names)), format_func=lambda x: item_names[x])
@@ -684,7 +684,7 @@ def render_document_page():
             </div>
             <div style="text-align: right; background: rgba(255,255,255,0.08); padding: 14px 18px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.12);">
                 <div style="font-size: 11px; color: #9CA3AF; text-transform: uppercase; font-weight: 700;">Student Candidate</div>
-                <div style="font-size: 16px; font-weight: 800; color: #FFFFFF; margin: 2px 0;">Ananya Kumar</div>
+                <div style="font-size: 16px; font-weight: 800; color: #FFFFFF; margin: 2px 0;">Rishav</div>
                 <div style="font-size: 12.5px; color: #A78BFA; font-weight: 600;">Reg. No: RA2311003011025</div>
                 <div style="font-size: 11px; color: #9CA3AF; margin-top: 4px;">SRM Institute of Science and Technology</div>
             </div>
@@ -810,7 +810,7 @@ def render_chat_page(df: pd.DataFrame, kpis: Dict[str, Any]):
     <div class="sc-page-header">
         <div>
             <h2 class="sc-page-title">💬 AI MIS Business Intelligence Assistant</h2>
-            <p class="sc-page-subtitle">Ask questions about store revenue, top products, customer tiers, or Ananya Kumar's MIS project.</p>
+            <p class="sc-page-subtitle">Ask questions about store revenue, top products, customer tiers, or Rishav's MIS project.</p>
         </div>
         <div>
             <span class="sc-badge-purple" style="font-size: 12px; padding: 5px 12px;">Context: {len(df)} Orders Loaded</span>
@@ -842,7 +842,7 @@ def render_chat_page(df: pd.DataFrame, kpis: Dict[str, Any]):
                 top_p = get_top_selling_products(df, top_n=1).iloc[0]
                 st.write(f"🏆 **Top-Performing SKU:**\n- **Product:** {top_p['product_name']}\n- **Category:** {top_p['category']}\n- **Net Sales:** ${top_p['net_sales']:,.2f}\n- **Units Sold:** {top_p['units_sold']:,}")
             elif "project" in prompt.lower() or "srm" in prompt.lower():
-                st.write("🎓 **Academic Project Profile:**\n- **Student:** Ananya Kumar\n- **Registration No:** RA2311003011025\n- **Institution:** SRM Institute of Science and Technology\n- **Course:** Management Information Systems (MIS)\n- **UI Template:** SellCraft E-Commerce Dashboard (Behance Case Study 241220463)")
+                st.write("🎓 **Academic Project Profile:**\n- **Student:** Rishav\n- **Registration No:** RA2311003011025\n- **Institution:** SRM Institute of Science and Technology\n- **Course:** Management Information Systems (MIS)\n- **UI Template:** SellCraft E-Commerce Dashboard (Behance Case Study 241220463)")
             else:
                 st.write(f"🤖 **SellCraft BI Engine:** The store currently holds **{len(df)} total orders** across {df['category'].nunique()} product categories, with **{df['customer_id'].nunique()} unique customers** and an average order delivery rate of **{(df['order_status']=='Completed').mean()*100:.1f}%**.")
 
@@ -911,9 +911,9 @@ def render_profile_page():
         st.markdown("""
         <div class="sc-card" style="text-align: center; padding: 30px 20px;">
             <div style="width: 80px; height: 80px; border-radius: 50%; background: #111827; color: #FFFFFF; font-size: 34px; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px auto; box-shadow: 0 4px 14px rgba(0,0,0,0.15);">
-                AK
+                R
             </div>
-            <div style="font-size: 19px; font-weight: 800; color: #111827;">Ananya Kumar</div>
+            <div style="font-size: 19px; font-weight: 800; color: #111827;">Rishav</div>
             <div style="font-size: 13px; color: #7C3AED; font-weight: 700; margin-top: 2px;">RA2311003011025</div>
             <div style="font-size: 12.5px; color: #6B7280; margin-top: 6px;">SRM Institute of Science and Technology</div>
             <div style="margin-top: 14px;">

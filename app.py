@@ -1,7 +1,7 @@
 """
 Business Intelligence and Analytics System for E-Commerce Management Decision-Making
 MIS Course Project - SRM Institute of Science and Technology
-Student: Ananya Kumar (RA2311003011025)
+Student: Rishav (RA2311003011025)
 
 UI Template: SellCraft E-Commerce Dashboard (Behance Case Study 241220463)
 Primary Entry Point: streamlit run app.py
@@ -60,7 +60,7 @@ st.sidebar.markdown(
         <div style="font-size:18px; font-weight:800; color:#111827;">SellCraft BI Engine</div>
         <div style="font-size:11.5px; color:#6B7280; margin-top:4px;">
             <b>MIS Project</b> &bull; SRM IST<br>
-            Student: Ananya Kumar [RA2311003011025]
+            Student: Rishav [RA2311003011025]
         </div>
     </div>
     """,

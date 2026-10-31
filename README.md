@@ -1,7 +1,7 @@
 # SellCraft — Business Intelligence and Analytics System for E-Commerce Management Decision-Making
 
 ### Management Information Systems (MIS) Course Project
-**Student:** Ananya Kumar  
+**Student:** Rishav  
 **Registration Number:** RA2311003011025  
 **Institution:** SRM Institute of Science and Technology, Kattankulathur  
 **Department:** Computing Technologies  
@@ -24,7 +24,7 @@ This system delivers a production-grade **Business Intelligence (BI) Decision-Su
   3. **Order (Fulfillment & Ledger):** Complete transactional ledger with status filtering (`Completed`, `Pending`, `Cancelled`, `Returned`), Order ID search, live order status updater that persists to SQLite in real time, and instant CSV export!
   4. **Customer Data (LTV & VIP Cohorts):** Customer intelligence metrics (Total Customers, 96.2% Repeat Rate, $950.49 Average LTV), VIP Customer Leaderboard with RFM tiers (`VIP Platinum`, `Gold Tier`, `Silver Member`), and horizontal buyer spend distribution chart.
   5. **Checkout (Interactive POS Simulator):** Live point-of-sale simulator allowing selecting products, setting quantities, applying promo codes (`SELLCRAFT10`, `SRM20`), previewing real-time itemized bills, and placing live orders that write to SQLite and update the overview dashboard live!
-  6. **Document (MIS Academic Report):** Full academic report tailored for SRM Institute of Science and Technology (Student: Ananya Kumar, Reg. No: RA2311003011025) across 6 comprehensive sections with mathematical formulas, ETL architecture, and database dictionary.
+  6. **Document (MIS Academic Report):** Full academic report tailored for SRM Institute of Science and Technology (Student: Rishav, Reg. No: RA2311003011025) across 6 comprehensive sections with mathematical formulas, ETL architecture, and database dictionary.
   7. **Settings:** Store currency formatting ($ USD, € EUR, £ GBP, ₹ INR), theme accents, SQLite database diagnostics (row count, file size, integrity check), and a 1-click button to reset the database to baseline demo data.
   8. **AI Assistant & Alerts Popovers:** Interactive query assistant for instant store analysis and live operational store alerts.
 
@@ -54,9 +54,6 @@ F:\MIS PROJ\
 ├── data/
 │   └── ecommerce_demo_data.csv    # 750 realistic demonstration transactions (Appendix A compliant)
 │
-├── docs/
-│   └── Ecommerce_MIS_Project_Report_Draft.docx  # Word project report draft
-│
 ├── src/
 │   ├── __init__.py
 │   ├── config.py                  # Theme colors, palette, column schemas, KPI definitions
@@ -64,10 +61,12 @@ F:\MIS PROJ\
 │   ├── analytics.py               # KPI calculation formulas, PoP growth, trends, decision rules
 │   ├── visualizations.py          # Plotly Analyses chart and sparkline
 │   ├── components.py              # Custom HTML/CSS component generators (cards, nav, tables)
+│   ├── pages.py                   # Dedicated modular views for all application tabs
 │   └── generate_data.py           # Synthetic demonstration data generator
 │
 └── tests/
     └── test_analytics.py          # Automated unit test suite (KPI arithmetic, filters, edge cases)
+```
 ```
 
 ---
