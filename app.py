@@ -3,7 +3,7 @@ Business Intelligence and Analytics System for E-Commerce Management Decision-Ma
 MIS Course Project - SRM Institute of Science and Technology
 Student: Rishav (RA2311003010921)
 
-UI Template: SellCraft E-Commerce Dashboard (Behance Case Study 241220463)
+UI Architecture: Custom Modern E-Commerce BI Dashboard (SellCraft)
 Primary Entry Point: streamlit run app.py
 """
 

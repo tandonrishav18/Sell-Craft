@@ -1,11 +1,11 @@
 """
 Configuration module for E-Commerce MIS BI Dashboard.
-Defines UI palette matching the SellCraft Behance design reference, KPI definitions, and application settings.
+Defines UI palette for the custom SellCraft design system, KPI definitions, and application settings.
 """
 
 from typing import Dict, List
 
-# Visual Design Theme - SellCraft Behance Aesthetic
+# Visual Design Theme - SellCraft Custom Design System
 THEME = {
     "bg_outer": "#F2F4F7",           # Clean modern light grey dashboard backdrop
     "bg_card": "#FFFFFF",            # Crisp white card surface

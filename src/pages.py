@@ -842,7 +842,7 @@ def render_chat_page(df: pd.DataFrame, kpis: Dict[str, Any]):
                 top_p = get_top_selling_products(df, top_n=1).iloc[0]
                 st.write(f"🏆 **Top-Performing SKU:**\n- **Product:** {top_p['product_name']}\n- **Category:** {top_p['category']}\n- **Net Sales:** ${top_p['net_sales']:,.2f}\n- **Units Sold:** {top_p['units_sold']:,}")
             elif "project" in prompt.lower() or "srm" in prompt.lower():
-                st.write("🎓 **Academic Project Profile:**\n- **Student:** Rishav\n- **Registration No:** RA2311003010921\n- **Institution:** SRM Institute of Science and Technology\n- **Course:** Management Information Systems (MIS)\n- **UI Template:** SellCraft E-Commerce Dashboard (Behance Case Study 241220463)")
+                st.write("🎓 **Academic Project Profile:**\n- **Student:** Rishav\n- **Registration No:** RA2311003010921\n- **Institution:** SRM Institute of Science and Technology\n- **Course:** Management Information Systems (MIS)\n- **Frontend System:** Custom SellCraft E-Commerce BI Architecture")
             else:
                 st.write(f"🤖 **SellCraft BI Engine:** The store currently holds **{len(df)} total orders** across {df['category'].nunique()} product categories, with **{df['customer_id'].nunique()} unique customers** and an average order delivery rate of **{(df['order_status']=='Completed').mean()*100:.1f}%**.")
 
@@ -931,7 +931,7 @@ def render_profile_page():
                 <div><b>Institution:</b> SRM Institute of Science and Technology, Kattankulathur</div>
                 <div><b>Project Title:</b> Business Intelligence and Analytics System for E-Commerce Management Decision-Making</div>
                 <div><b>Architecture:</b> Streamlit 1.66 SPA &bull; SQLite ACID Persistence &bull; Plotly Spline Visualization</div>
-                <div><b>Design Standard:</b> SellCraft E-Commerce Dashboard (Behance Case Study 241220463)</div>
+                <div><b>Design Standard:</b> SellCraft Custom Modern Frontend Design System</div>
                 <div><b>System Status:</b> Operational & Verified</div>
             </div>
         </div>

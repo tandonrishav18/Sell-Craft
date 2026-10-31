@@ -1,6 +1,6 @@
 """
 Custom UI Components for SellCraft E-Commerce Dashboard.
-Faithfully recreates the exact Behance SellCraft design system across all pages:
+Implements a custom modern frontend design system across all pages:
 - Overview (Executive BI Dashboard)
 - Product (Catalog & Inventory Management)
 - Order (Fulfillment & Transaction Ledger)
@@ -19,7 +19,7 @@ from src.config import THEME, KPI_DEFINITIONS
 
 def get_custom_css() -> str:
     """
-    CSS stylesheet injected into Streamlit to replicate the exact Behance SellCraft aesthetic.
+    Custom CSS stylesheet engineered for the SellCraft frontend interface.
     Guarantees slim navbar, sleek padding, and no overflow outside margins.
     """
     return f"""

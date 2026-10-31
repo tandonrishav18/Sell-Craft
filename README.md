@@ -5,13 +5,13 @@
 **Registration Number:** RA2311003010921  
 **Institution:** SRM Institute of Science and Technology, Kattankulathur  
 **Department:** Computing Technologies  
-**UI/UX Design Reference:** [SellCraft E-Commerce Dashboard (Behance Case Study 241220463)](https://www.behance.net/gallery/241220463/E-Commerce-Dashboard-UI-UX-Design)  
+**Frontend Architecture:** Custom SellCraft Modern E-Commerce Design System  
 
 ---
 
 ## 1. Executive Summary
 
-This system delivers a production-grade **Business Intelligence (BI) Decision-Support Platform** engineered specifically to replicate the **SellCraft Behance Case Study** design ([Behance Case Study 241220463](https://www.behance.net/gallery/241220463/E-Commerce-Dashboard-UI-UX-Design)):
+This system delivers a production-grade **Business Intelligence (BI) Decision-Support Platform** featuring a custom modern frontend design system built from the ground up:
 - **Ultra-Sleek Top Navigation Bar:** Slim, compact header with `SellCraft` brand logo, active rounded black pill on selected tab, clean grey inactive tabs, Settings button (`⚙️ Settings`), and interactive action buttons (`💬` AI Assistant, `🔔` Notifications, `👤` Profile). No tabs or elements overflow outside screen boundaries.
 - **Dedicated Interactive Pages (All Buttons & Tabs Fully Functional):**
   1. **Overview:** The executive BI command center featuring:

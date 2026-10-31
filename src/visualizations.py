@@ -83,7 +83,7 @@ def create_analyses_chart(df: pd.DataFrame) -> go.Figure:
         hovertemplate="Cancel Order: <b>%{y:,}</b><extra></extra>"
     ))
 
-    # Floating dark badge annotation in chart matching Behance screenshot
+    # Floating dark badge annotation in chart for key metric insights
     fig.add_annotation(
         x="Wed", y=max(y_orders) * 1.05,
         text="<span style='color:#C4B5FD;'>● 12,000+</span><br><span style='color:#FDA4AF;'>● 10,000+</span><br><span style='color:#FDE68A;'>● 800+</span>",
