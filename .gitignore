@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and runtime caches
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
